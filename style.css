@@ -1,0 +1,91 @@
+/* THE GLOBAL STYLES */
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--light-gray);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 0.94rem;
+}
+
+/* THE COMPONENTS STYLES */
+
+.qr-code {
+  max-width: 20rem;
+
+  background: var(--white);
+  box-shadow: 0rem 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0476518);
+  border-radius: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* The Image Area */
+
+.qr-code__img-area img {
+  max-width: 100%;
+  border-radius: 0.625rem;
+  display: block;
+}
+
+/* The Content Area */
+
+.qr-code__text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.qr-code__text-area h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  text-align: center;
+
+  color: var(--dark-blue);
+}
+
+.qr-code__text-area p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.94rem;
+  line-height: 1.188rem;
+  text-align: center;
+  letter-spacing: 0.0117rem;
+
+  color: var(--grayish-blue);
+  margin: 0rem 1rem;
+}
