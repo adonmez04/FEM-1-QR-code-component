@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR code component v1.0
 
-- [Frontend Mentor - QR code component](#frontend-mentor---qr-code-component)
+- [Frontend Mentor - QR code component v1.0](#frontend-mentor---qr-code-component-v10)
   - [Welcome! 👋](#welcome-)
   - [Links](#links)
   - [My Questions](#my-questions)
